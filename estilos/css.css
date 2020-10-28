@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.header a{
+    color: #FFF;
+}
+.header .logo{
+    margin-top: 7px;
+    color: #FFF;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+
+
+.desplegable{
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.desplegable a{    
+    color: #fff;
+}
+
+.menu a{
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+main{
+    width: 100%;    
+    height: auto;
+    background-color: #000;   
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;  
+    
+}
+
+.portada{
+    margin-top: 25px;
+    width: 86%;
+    height: 350px;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+main h4{    
+    text-align: center;    
+    color: #fff;
+}
+
+
+section{
+    width: 90%;
+    height: auto;
+    /*background-color: violet;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+
+.tarjetas{
+    margin-top: 15px;
+    width: 380px;
+    height: 400px;
+    background-color: white;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 60px;    
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+
+.home{    
+    width: 90%;
+    height: 40px;
+    background-color:#343a40 ;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.home li{ 
+    text-decoration: none;
+    list-style: none;   
+    
+}
+
+.home a i{ 
+    text-decoration: none;
+    list-style: none;
+    color: #fff;  
+    
+}
+
+
+.redes{
+    margin-top: 15px;
+    width: 86%;
+    height: 150px;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+@media (min-width: 770px) {
+    footer{visibility: hidden;
+                      
+    }
+}
