@@ -102,6 +102,7 @@ footer{
     border-radius: 30px;
     display: flex;
     justify-content: space-around;
+    padding: 5px;
     
 }
 
